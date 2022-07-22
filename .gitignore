@@ -6,6 +6,7 @@
 .pnp.js
 package-lock.json
 .idea
+.netlify
 
 # testing
 /coverage
