@@ -6,4 +6,20 @@
     html, body, #root {
         @apply h-full bg-zinc-50
     }
+    .container {
+        width: 935px !important;
+        max-width: 100%;
+    }
+    #root {
+        @apply flex flex-col
+    }
+    #root .container {
+        @apply flex-1
+    }
+}
+
+@layer components {
+    .messages-box > div {
+        @apply flex flex-col gap-y-2
+    }
 }
